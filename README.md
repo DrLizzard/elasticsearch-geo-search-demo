@@ -1,3 +1,39 @@
+# Elasticsearch Geo Search Demo
+
+A small demo project showing how Elasticsearch can perform geospatial search.
+
+The project imports real restaurant and cafe data from OpenStreetMap and allows users
+to search nearby places using a Python Streamlit web interface.
+
+Technologies used:
+- Elasticsearch
+- Docker
+- Python
+- Streamlit
+- OpenStreetMap (Overpass API)
+
+---
+
+## Quick Start
+
+1. Start Docker and Elasticsearch
+
+docker start elasticsearch
+
+2. Activate Python environment
+
+source venv/bin/activate
+
+3. Start the Streamlit app
+
+streamlit run app.py
+
+4. Open the UI
+
+http://localhost:8501
+
+---
+
 # Elasticsearch Geospatial Search Project
 
 ## Overview
