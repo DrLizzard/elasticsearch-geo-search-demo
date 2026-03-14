@@ -3,7 +3,7 @@ from elasticsearch import Elasticsearch
 
 es = Elasticsearch(
     "https://localhost:9200",
-    basic_auth=("elastic", "0AO9u3rks4ZQrNa5cvbI"),
+    basic_auth=("elastic-username", "elastic-password"),
     verify_certs=False
 )
 
